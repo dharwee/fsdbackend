@@ -1,7 +1,7 @@
 const fs=require('fs');
 const write=(data)=>{
     //const data="written through async"
-    fs.writeFile("./data.txt",data,(e)=>{
+    fs.writeFile("./mydir/data.txt",data,(e)=>{
         if(e)
             console.log(e)
         else
